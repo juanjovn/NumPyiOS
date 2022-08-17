@@ -23,11 +23,7 @@ let package = Package(
         .target(
             name: "NumPySupport",
             dependencies: ["Python-iOS"],
-            resources: [.copy("site-packages")]),
-        .target(
-            name: "pickle",
-            dependencies: [],
-            resources: [.copy("svr1.pickle"),.copy("svr2.pickle"),.copy("svr3.pickle"),.copy("svr4.pickle"),.copy("svr5.pickle"),.copy("svr6.pickle"),.copy("svr7.pickle"),.copy("svr8.pickle"),.copy("svr9.pickle"),.copy("svr10.pickle"),.copy("svr11.pickle"),.copy("svr12.pickle"),.copy("svr13.pickle"),.copy("svr14.pickle"),]),
+            resources: [.copy("site-packages"),.copy("svr1.pickle"),.copy("svr2.pickle"),.copy("svr3.pickle"),.copy("svr4.pickle"),.copy("svr5.pickle"),.copy("svr6.pickle"),.copy("svr7.pickle"),.copy("svr8.pickle"),.copy("svr9.pickle"),.copy("svr10.pickle"),.copy("svr11.pickle"),.copy("svr12.pickle"),.copy("svr13.pickle"),.copy("svr14.pickle"),]),
         .testTarget(
             name: "NumPy-iOSTests",
             dependencies: ["NumPySupport"]),
