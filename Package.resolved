@@ -5,8 +5,8 @@
         "package": "Python-iOS",
         "repositoryURL": "https://github.com/kewlbear/Python-iOS.git",
         "state": {
-          "branch": "3.8_kivy-ios",
-          "revision": "f5333228b625560a90c17d9e2d3a9b2aac6967a9",
+          "branch": "main",
+          "revision": "d3ed91b16565ea599d0947fcbc3e6db0d0f9ae00",
           "version": null
         }
       }
